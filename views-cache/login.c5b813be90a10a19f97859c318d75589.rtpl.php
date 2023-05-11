@@ -49,10 +49,10 @@
                 </form>                    
             </div>
             <div class="col-md-6">
-                <?php if( $registerError!='' ){ ?>
+                <?php if( $errorRegister!='' ){ ?>
 
                 <div class="alert alert-danger">
-                    <?php echo htmlspecialchars( $registerError, ENT_COMPAT, 'UTF-8', FALSE ); ?>
+                    <?php echo htmlspecialchars( $errorRegister, ENT_COMPAT, 'UTF-8', FALSE ); ?>
 
                 </div>
                 <?php } ?>
