@@ -38,6 +38,6 @@
 		$totals = $cart->getProductsTotals();
 
 		return formatPrice($totals['vlprice']);
-	}
+	}	
 
  ?>
